@@ -33,4 +33,4 @@ if __name__ == '__main__':
     while True:
         for url in urls:
             prev_htmls[url] = check_website(url, prev_htmls.get(url, ''))
-        time.sleep(10)  # 15分 = 900秒
+        time.sleep(10)  # 10秒 = 900秒
